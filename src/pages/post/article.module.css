@@ -1,0 +1,75 @@
+.article {
+  position: relative;
+  width: 56rem;
+  padding: 2rem;
+  margin-top: 1.25rem;
+  margin-left: 3.125rem;
+  font-size: 1.0625rem;
+  line-height: 2.125rem;
+  color: var(--article-title-color);
+  background-color: var(--article-background-color);
+}
+
+.article h1 {
+  padding: 0.625rem 0;
+  margin-bottom: 10px;
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 2.625rem;
+  border-bottom: 1px solid var(--topnav-border-color);
+}
+
+.article .title {
+  font-size: 2.25rem;
+  font-weight: 600;
+  line-height: 2;
+  color: var(--article-title-color);
+}
+
+.article .userinfo {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.25rem;
+}
+
+.article .userinfo .username {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.article .userinfo .info {
+  color: var(--article-time-color);
+}
+
+.about {
+  position: absolute;
+  top: 0;
+  left: 60.625rem;
+}
+
+.auth,
+.relate,
+.directory {
+  margin-bottom: 15px;
+}
+
+.container .about .directory {
+  width: 300px;
+  color: var(--article-title-color);
+  background-color: var(--article-background-color);
+}
+
+.directory h3 {
+  padding: 1.333rem 0;
+  margin: 0 1.667rem;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2rem;
+  border-bottom: 1px solid var(--article-time-color);
+}
+
+@media (max-width: 1000px) {
+  .about {
+    display: none;
+  }
+}

@@ -1,0 +1,50 @@
+.box {
+  width: 300px;
+  height: auto;
+  color: var(--article-title-color);
+  background-color: var(--article-background-color);
+}
+
+/* 相关文章 */
+.title {
+  padding: 1.333rem 0;
+  margin: 0 1.667rem;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2rem;
+  border-bottom: 1px solid var(--topnav-border-color);
+}
+
+/* 每一个div */
+.item {
+  display: block;
+  padding: 0.667rem 1.667rem;
+  color: var(--article-title-color);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.metabox {
+  display: flex;
+  justify-content: left;
+  margin-top: 4px;
+  font-size: 16px;
+  color: var(--article-time-color);
+}
+
+.itemtitle {
+  font-size: 16px;
+}
+
+.itemtitle:hover {
+  color: rgb(17 160 245);
+}
+
+.metalike,
+.metacomment,
+.space {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+}
